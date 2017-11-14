@@ -1,0 +1,68 @@
+body {
+    background-image: url('login_bg.jpg')
+}
+
+#login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+}
+
+.login {
+    width: 460px;
+    height: 535px;
+    box-shadow: 3px 3px 10px #888888;
+    background-color: #ffffff;
+    z-index: 99999;
+    border-bottom: 6px solid #20a8d8;
+    margin-right: 10%;
+    opacity: 0.9;
+}
+
+.login__logo, .login__title,
+.login__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__logo-imagem {
+    width: 90px;
+    height: 90px;
+    margin-top: 3%;
+}
+
+.login__form-form {
+    width: 80%;
+}
+
+.login__logo-imagem {
+
+}
+
+.botao {
+    background-color: #20a8d8 !important;
+}
+
+.login__form-criar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 5%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #login {
+        height: 666px;
+        justify-content: center;
+    }
+
+    .login{
+        width: auto;
+        height: auto;
+        margin-right: 0px;
+    }
+}
